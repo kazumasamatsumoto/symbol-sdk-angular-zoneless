@@ -1,0 +1,68 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.angular-logo {
+  width: 40px;
+  height: auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #495057;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e9ecef;
+}
+
+nav a.active {
+  color: #7702FF;
+  background-color: rgba(119, 2, 255, 0.1);
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e9ecef;
+  color: #6c757d;
+}
